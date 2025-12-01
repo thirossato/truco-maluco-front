@@ -1,0 +1,1 @@
+# truco-maluco-front
