@@ -178,7 +178,7 @@ Você pode manter esses tipos sincronizados com o backend (copiar/colar ou usar 
 - [X] Tela inicial (Home)
 - [X] Tela de criação de sala
 - [X] Tela de entrada em sala
-- [ ] Tela de lobby com lista de jogadores
+- [X] Tela de lobby com lista de jogadores
 
 ### MVP 2 — Tempo real
 - [ ] Conectar Socket.io Client
