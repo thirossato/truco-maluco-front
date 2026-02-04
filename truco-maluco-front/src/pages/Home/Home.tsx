@@ -1,7 +1,9 @@
 import { Button } from "../../components/ui/Button";
 import logo from "../../assets/images/logo_truco_maluco_transparente.png";
+import { Link } from "react-router";
 
 export function Home() {
+  
   return (
     <div className="
       min-h-screen
@@ -35,9 +37,11 @@ export function Home() {
           Jogar Agora
         </Button>
 
-        <Button variant="secondary" fullWidth className="mt-2 text-center text-white/70 text-sm">
-          Criar Sala
-        </Button>
+        <Link to="/game/create">
+          <Button variant="secondary" fullWidth className="mt-2 text-center text-white/70 text-sm">
+            Criar Sala
+          </Button>
+        </Link>
 
          <Button variant="secondary" fullWidth className="mt-2 text-center text-white/70 text-sm">
           Entrar em sala

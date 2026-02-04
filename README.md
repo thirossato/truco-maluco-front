@@ -175,7 +175,7 @@ Você pode manter esses tipos sincronizados com o backend (copiar/colar ou usar 
 ## 📌 Roadmap do Frontend
 
 ### MVP 1 — Salas
-- [ ] Tela inicial (Home)
+- [X] Tela inicial (Home)
 - [ ] Tela de criação de sala
 - [ ] Tela de entrada em sala
 - [ ] Tela de lobby com lista de jogadores
