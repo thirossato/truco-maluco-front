@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "./truco-maluco-theme.css";
+
+@layer base {
+  body {
+    @apply bg-background;
+  }
+}

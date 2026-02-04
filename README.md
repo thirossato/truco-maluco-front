@@ -13,7 +13,7 @@ Este projeto foi criado em **React** (com Vite) e consome a API do backend [`tru
 - Vite
 - Axios (requisições HTTP)
 - React Router (navegação)
-- Styled Components / CSS Modules (estilização) – a definir
+- Tailwind css
 - (Futuro) Socket.io Client para tempo real
 
 ---

@@ -1,0 +1,32 @@
+
+/* ===============================
+   Truco Maluco - Base Theme
+   =============================== */
+
+@theme  {
+  /* Brand Colors */
+  --color-primary: #FFD000; 
+  --color-secondary: #00C853; 
+  --color-accent: #FF3D00; 
+  --color-background: #0035A0; 
+  --color-surface: #132F6A;
+
+  /* Text */
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #E0E0E0;
+
+  /* UI */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --shadow-card: 0 8px 0 rgba(0,0,0,0.25);
+  --shadow-button: 0 6px 0 rgba(0,0,0,0.35);
+}
+
+/* Reset básico */
+* {
+  box-sizing: border-box;
+}
+
+
