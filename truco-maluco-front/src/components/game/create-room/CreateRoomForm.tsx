@@ -23,7 +23,7 @@ export function CreateRoomForm() {
   }
 
    return (
-     <div className="mx-auto max-w-[420px] flex flex-col gap-5 p-4">
+     <div className="mx-auto max-w-105 flex flex-col gap-5 p-4">
        <RoomNameInput value={form.name} onChange={(v) => update("name", v)} />
 
        <PlayerCountToggle

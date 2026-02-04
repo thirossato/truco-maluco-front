@@ -176,8 +176,8 @@ Você pode manter esses tipos sincronizados com o backend (copiar/colar ou usar 
 
 ### MVP 1 — Salas
 - [X] Tela inicial (Home)
-- [ ] Tela de criação de sala
-- [ ] Tela de entrada em sala
+- [X] Tela de criação de sala
+- [X] Tela de entrada em sala
 - [ ] Tela de lobby com lista de jogadores
 
 ### MVP 2 — Tempo real

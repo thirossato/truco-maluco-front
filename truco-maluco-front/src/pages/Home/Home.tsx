@@ -3,14 +3,14 @@ import logo from "../../assets/images/logo_truco_maluco_transparente.png";
 import { Link } from "react-router";
 
 export function Home() {
-  
   return (
-    <div className="
+    <div
+      className="
       min-h-screen
       flex flex-col items-center justify-center
       px-6
-    ">
-      
+    "
+    >
       {/* Logo container */}
       <div className="mb-8">
         <img
@@ -21,13 +21,15 @@ export function Home() {
       </div>
 
       {/* Subtitle */}
-      <p className="
+      <p
+        className="
         text-lg
         font-bold
         text-white
         opacity-90
         mb-10
-      ">
+      "
+      >
         O truco mais caótico da internet
       </p>
 
@@ -38,14 +40,24 @@ export function Home() {
         </Button>
 
         <Link to="/game/create">
-          <Button variant="secondary" fullWidth className="mt-2 text-center text-white/70 text-sm">
+          <Button
+            variant="secondary"
+            fullWidth
+            className="mt-2 text-center text-white/70 text-sm"
+          >
             Criar Sala
           </Button>
         </Link>
 
-         <Button variant="secondary" fullWidth className="mt-2 text-center text-white/70 text-sm">
-          Entrar em sala
-        </Button>
+        <Link to="/game/join">
+          <Button
+            variant="secondary"
+            fullWidth
+            className="mt-2 text-center text-white/70 text-sm"
+          >
+            Entrar em sala
+          </Button>
+        </Link>
       </div>
     </div>
   );
